@@ -9,7 +9,7 @@
                 <div class="fl">
                     <!--课程标题-->
                     <h1 :class= "classLevel">{{courseProcess.title}}</h1>
-                    <!--起始,结束,耗时-->
+                    <!--起始,结束,耗时1-->
                     <div v-if="ifCourseStatus('Graduated')">
                         <p>{{courseProcess.startTime}}<span> ~ </span>{{courseProcess.endTime}}</p>
                         <p>您总共花了{{courseProcess.costTime}}天完成该课程</p>
