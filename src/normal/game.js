@@ -8,12 +8,16 @@ var posXLast = 0
 var posYLast = 0
 var width = 0
 var height = 0
+var dirWay = ''
+var nIntervId;
+var moveType = 1
 
-function setStart(x,y,width,height) {
+function setStart(x,y,width,height,interval) {
     console.log('game start')
     posX = posXLast = x;
     posY = posYLast = y;
     this.width =width;
     this.height = height;
     creatRect(this.width,this.height);
+    nIntervId = setInterval(autoMove,interval);
 }

@@ -2,24 +2,8 @@
  * Created by sun10 on 2017/5/1.
  */
 
-
-
-function move(dir) {
-    console.log(dir);
-    switch(dir) {
-        case 'W':
-            movePos(1,-1);
-            break;
-        case 'S':
-            movePos(1,1);
-            break;
-        case 'A':
-            movePos(2,-1);
-            break;
-        case 'D':
-            movePos(2,1);
-            break;
-    }
+function autoMove() {
+    if(dirWay) move(dirWay)
 }
 
 function movePos(s,n) {
