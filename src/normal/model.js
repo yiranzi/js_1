@@ -3,35 +3,33 @@
  */
 
 function autoMove() {
-    if(dirWay) move(dirWay)
+    movePos()
 }
 
-function movePos(s,n) {
-    if(s === 1)
-    {
-        posXLast = posX;
-        posYLast = posY;
-        if(posY + n < height && posY + n > -1) {
-            posY = posY + n;
+function movePos() {
+    if (posY + dirY < height && posY + dirY > -1 && posX + dirX < width && posX + dirX > -1) {
+        posY = posY + dirY;
+        posX = posX + dirX;
+        if (step === tailX.length) {
+            step = 0;
         }
-    }
-    else
-    {
-        posXLast = posX;
-        posYLast = posY;
-        if(posX + n < width && posX + n > -1) {
-            posX = posX + n
-        }
+        posXLast = posXLast + tailX[step];
+        tailX[step] = dirX;
+        posYLast = posYLast + tailY[step];
+        tailY[step] = dirY;
+        step = step + 1;
+    } else {
+        console.log('gameover')
     }
     reDraw()
 }
 
 function reDraw() {
-    console.log('redraw',posX,posY);
     rectColor(posXLast,posYLast,0)
     rectColor(posX,posY,1)
 }
 
 function setFood() {
-
+    var position = [1,1];
+    foods.push(position);
 }

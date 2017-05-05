@@ -16,16 +16,17 @@ function creatRect(width,height) {
 }
 
 function rectColor(posX,posY,type) {
-    console.log('drawing')
     var father = document.getElementById('first')
     var lines = father.getElementsByTagName('div')
     var line = lines[posY];
     var cols = line.getElementsByTagName('span');
     var col = cols[posX];
-    if (type !== 0)
+    if (type === 1)
     {
+        console.log('draw ' + posX,posY)
         addClass(col,'have-ele');
     } else {
+        console.log( 'redo ' + posX,posY)
         removeClass(col,'have-ele');
     }
 
