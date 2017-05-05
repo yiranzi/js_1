@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4d4eb5d1-fb4a-4981-a0eb-84d3680fd42d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/normal/aEntry.html" afterPath="$PROJECT_DIR$/src/normal/aEntry.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/normal/control.js" afterPath="$PROJECT_DIR$/src/normal/control.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/normal/first.js" afterPath="$PROJECT_DIR$/src/normal/first.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/normal/game.js" afterPath="$PROJECT_DIR$/src/normal/game.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/normal/model.js" afterPath="$PROJECT_DIR$/src/normal/model.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/normal/view.js" afterPath="$PROJECT_DIR$/src/normal/view.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -394,7 +390,7 @@
       <workItem from="1493605200628" duration="914000" />
       <workItem from="1493606508221" duration="13781000" />
       <workItem from="1493713959003" duration="707000" />
-      <workItem from="1493998378054" duration="85000" />
+      <workItem from="1493998378054" duration="165000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1491999972997</created>
@@ -410,11 +406,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493714029907</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="自动移动的版本">
+      <created>1493998482907</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1493998482907</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36564000" />
+    <option name="totallyTimeSpent" value="36644000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -427,14 +430,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22913617" sideWeight="0.48604652" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3270142" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3270142" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3270142" sideWeight="0.49707174" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22954726" sideWeight="0.5139535" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -456,7 +459,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始化" />
     <MESSAGE value="第一个版本" />
-    <option name="LAST_COMMIT_MESSAGE" value="第一个版本" />
+    <MESSAGE value="自动移动的版本" />
+    <option name="LAST_COMMIT_MESSAGE" value="自动移动的版本" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
