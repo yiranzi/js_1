@@ -7,20 +7,30 @@ document.onkeydown = function (ev) {
 
     switch (num) {
         case 87:
-            dirX = 0
-            dirY = -1
+            if(dirY != 1){
+                dirX = 0
+                dirY = -1
+            }
             break;
         case 83:
-            dirX = 0
-            dirY = 1
+            if(dirY != -1){
+                dirX = 0
+                dirY = 1
+            }
             break;
         case 65:
-            dirX = -1
-            dirY = 0
+            if(dirX != 1){
+                dirX = -1
+                dirY = 0
+            }
+
             break;
         case 68:
-            dirX = 1
-            dirY = 0
+            if(dirX != -1){
+                dirX = 1
+                dirY = 0
+            }
+
             break;
     }
 }
