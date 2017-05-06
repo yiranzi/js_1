@@ -19,6 +19,14 @@ var foods = []
 var snakeMove = []
 var step =0
 
+var snake =[]
+var onlyNode = {
+    posX:0,
+    posY:0,
+}
+
+var foods = []
+
 function setStart(x,y,width,height,interval) {
     console.log('game start')
     posX = posXLast = x;
@@ -30,17 +38,18 @@ function setStart(x,y,width,height,interval) {
 }
 
 function setLength(length,dirX,dirY) {
+    console.log('setlength')
     this.dirX = dirX;
     this.dirY = dirY;
-    tailX = new Array(length);
-    tailY = new Array(length);
-    tailX.fill(dirX);
-    tailY.fill(dirY);
     setStartPos(length);
 }
 
 function setStartPos(length) {
+    console.log('set2')
     for(var i = 0;i< length;i++){
+        snake[i] = {}
+        snake[i].posX = posXLast;
+        snake[i].posY = posYLast;
         console.log('init ',posXLast,posYLast)
         rectColor(posXLast,posYLast,1);
         posXLast = posXLast - dirX;
