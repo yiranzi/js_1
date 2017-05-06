@@ -8,11 +8,8 @@ var posXLast = 0
 var posYLast = 0
 var width = 0
 var height = 0
-var dirWay = ''
 var dirX = 0
 var dirY = 0
-var tailX = []
-var tailY = []
 var nIntervId;
 var moveType = 1
 var foods = []
@@ -26,13 +23,20 @@ var onlyNode = {
 }
 
 var foods = []
+var map = []
 
 function setStart(x,y,width,height,interval) {
     console.log('game start')
     posX = posXLast = x;
     posY = posYLast = y;
     this.width =width;
-    this.height = height;
+    this.height = height
+    for(var x = 0; x < width; x++){
+        map[x] = [];
+        for(var y =0; y<height; y++) {
+            map[x][y] = 0;
+        }
+    }
     creatRect(this.width,this.height);
     nIntervId = setInterval(autoMove,interval);
 }
